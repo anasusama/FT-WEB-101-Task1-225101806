@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Anas Osama Ahmed | Student ID: 225101806 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas Osama Ahmed | Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home">Anas Osama Ahmed</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <p class="eyebrow">Field Training I · FT-WEB-101</p>
+        <h1>Anas Osama Ahmed</h1>
+        <p class="intro">Hello! I am Anas Osama Ahmed, a Computer Science and Engineering student who enjoys learning, creating, and solving problems with technology.</p>
+        <a class="primary-link" href="#contact">Say hello <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="photo-frame">
+        <img src="images/me.jpg" alt="Portrait of Anas Osama Ahmed">
+      </div>
+    </section>
+
+    <section class="content-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">A little more about me</p>
+        <h2>Things I enjoy</h2>
+      </div>
+      <div class="card-row">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">&lt;/&gt;</div>
+          <h3>Web Development</h3>
+          <p>I like building clear, responsive pages with HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">✦</div>
+          <h3>Creative Thinking</h3>
+          <p>I enjoy turning ideas into useful designs and finding simple solutions.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">◎</div>
+          <h3>Learning</h3>
+          <p>I am always curious to learn new skills and improve step by step.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>Send me a message</h2>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <button class="submit-button" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Anas Osama Ahmed · Student ID: 225101806</p>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾ <span>Dark mode</span></button>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
